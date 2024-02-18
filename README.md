@@ -11,7 +11,7 @@ at the time you load this plugin.
 
 You can add your current direnv directory to the PROMPT:
 
-    $PROMPT="${DIRENV_DIR##*/} ${PROMPT}"
+    PROMPT="${DIRENV_DIR##*/} ${PROMPT}"
 
 ## Installation
 

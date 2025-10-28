@@ -7,11 +7,11 @@ zsh plugin for loading [direnv](https://github.com/direnv/direnv.git)
 [direnv](https://github.com/direnv/direnv.git) should be in your `$path`
 at the time you load this plugin. 
 
-## Adding current direnv dir to the PROMPT (optional)
+## Optional: Adding current direnv dir to the prompt
 
 You can add your current direnv directory to the PROMPT:
 
-    $PROMPT="${DIRENV_DIR##*/} ${PROMPT}"
+    PROMPT="${DIRENV_DIR##*/} ${PROMPT}"
 
 ## Installation
 
